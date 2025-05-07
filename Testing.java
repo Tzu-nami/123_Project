@@ -11,7 +11,6 @@ public class Testing {
         this.documents = new HashMap<>();
     }
 
-    // Automatically reads and indexes documents
     public void indexDocuments(String[] filenames) {
         for (String filename : filenames) {
             String content = readDocument(filename);
