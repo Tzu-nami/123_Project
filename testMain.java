@@ -10,6 +10,6 @@ public class testMain {
 
         // Perform a search
         List<String> results = searchEngine.search("momol");
-        System.out.println("Documents containing 'momol': " + results);
+        System.out.println("Documents: " + results);
     }
 }
